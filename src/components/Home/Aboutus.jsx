@@ -17,7 +17,7 @@ const Aboutus = () => {
             technology, we continuously strive to deliver exceptional service
             and groundbreaking solutions tailored to our clients' unique needs.
           </p>
-          <button className="bg-blue-500 w-40 text-white px-2 py-2 rounded-lg">
+          <button className="bg-black w-40 text-white px-2 py-2 rounded-lg">
             Learn More
           </button>
         </div>

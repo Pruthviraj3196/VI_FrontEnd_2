@@ -15,7 +15,7 @@ const Contact = () => {
             <label className="block text-gray-700">Message</label>
             <textarea className="w-full px-3 py-2 border border-gray-300 rounded-lg"></textarea>
           </div>
-          <button className="bg-blue-500 text-white py-2 px-4 rounded-lg">Submit</button>
+          <button className="bg-black text-white py-2 px-4 rounded-lg">Submit</button>
         </form>
       </section>
     );

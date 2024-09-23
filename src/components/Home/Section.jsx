@@ -1,6 +1,6 @@
 import React from "react";
 
-const Aiderive = () => {
+const Section = () => {
   return (
     <div>
       {/* Section 1 */}
@@ -21,7 +21,7 @@ const Aiderive = () => {
             <p className="text-gray-700 mb-4">
               At Genex, we are at the forefront of leveraging Artificial Intelligence (AI) to drive innovation and enhance our service offerings. Our commitment to integrating cutting-edge AI technologies enables us to deliver smarter, more efficient solutions that propel our clients towards success.
             </p>
-            <button className="bg-blue-600 text-white py-2 px-6 rounded-lg hover:bg-blue-700 transition duration-300">
+            <button className="bg-slate-500 text-white py-2 px-6 rounded-lg hover:bg-blue-700 transition duration-300">
               Learn More
             </button>
           </div>
@@ -78,4 +78,4 @@ const Aiderive = () => {
   );
 };
 
-export default Aiderive;
+export default Section;

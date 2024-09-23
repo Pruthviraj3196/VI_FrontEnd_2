@@ -24,10 +24,10 @@ const Whatweprovide = () => {
 
           </p>
           <div>
-            <button className="bg-blue-500 text-white px-4 py-2 rounded-lg mr-3">
+            <button className="bg-black text-white px-4 py-2 rounded-lg mr-3">
               Learn More
             </button>
-            <button className="bg-green-500 text-white px-4 py-2 rounded-lg">
+            <button className="bg-slate-300 text-gray-700 px-4 py-2 rounded-lg">
               Get Started
             </button>
           </div>
@@ -49,10 +49,10 @@ const Whatweprovide = () => {
             excel at solving complex analytic challenges.
           </p>
           <div>
-            <button className="bg-blue-500 text-white px-4 py-2 rounded-lg mr-3">
+            <button className="bg-black text-white px-4 py-2 rounded-lg mr-3">
               Learn More
             </button>
-            <button className="bg-green-500 text-white px-4 py-2 rounded-lg">
+            <button className="bg-slate-300 text-gray-700px-4 py-2 rounded-lg">
               Get Started
             </button>
           </div>
@@ -74,10 +74,10 @@ const Whatweprovide = () => {
             informed decisions with ease.
           </p>
           <div>
-            <button className="bg-blue-500 text-white px-4 py-2 rounded-lg mr-3">
+            <button className="bg-black text-white px-4 py-2 rounded-lg mr-3">
               Learn More
             </button>
-            <button className="bg-green-500 text-white px-4 py-2 rounded-lg">
+            <button className="bg-slate-300 text-gray-700 px-4 py-2 rounded-lg">
               Get Started
             </button>
           </div>
@@ -98,10 +98,10 @@ const Whatweprovide = () => {
             relatively new one to understand.
           </p>
           <div>
-            <button className="bg-blue-500 text-white px-4 py-2 rounded-lg mr-3">
+            <button className="bg-black text-white px-4 py-2 rounded-lg mr-3">
               Learn More
             </button>
-            <button className="bg-green-500 text-white px-4 py-2 rounded-lg">
+            <button className="bg-slate-300 text-gray-700 px-4 py-2 rounded-lg">
               Get Started
             </button>
           </div>
