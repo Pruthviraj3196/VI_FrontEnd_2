@@ -1,16 +1,23 @@
 import React from 'react'
 import Hero from '../components/Home/Hero'
-import Services from '../components/Home/Services'
-import Trainings from '../components/Home/Trainings'
 import Contact from '../components/Home/Contact'
+import Aiderive from '../components/Home/AiDerive'
+import Whatweprovide from '../components/Home/Whatweprovide'
+import Aboutus from '../components/Home/Aboutus'
+import Footer from '../components/Home/Footer'
+import Testimonials from '../components/Home/Testimonials'
+
 
 function Home() {
   return (
    <div>
       <Hero />
-      <Services />
-      <Trainings />
+      <Aiderive />
+      <Whatweprovide/>
+      <Aboutus />
+      <Testimonials />
       <Contact />
+      <Footer />
    </div>
   )
 }
