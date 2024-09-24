@@ -1,10 +1,11 @@
+import Ofcimg from "../../assets/ofcimg2.jpg"
+
 const Hero = () => {
   return (
     <section
       className="bg-cover bg-center bg-no-repeat w-full h-screen overflow-x-hidden flex items-center"
       style={{
-        backgroundImage:
-          "url('https://t4.ftcdn.net/jpg/04/34/00/97/360_F_434009755_rWZTn0C690yRQ193al21BiOjmhrNZJLH.webp')",
+        backgroundImage: `url(${Ofcimg})`,
         backgroundSize: 'cover',
       }}
     >

@@ -1,7 +1,6 @@
-import React from 'react';
+import { Link } from 'react-router-dom';
+import logo from "../assets/logo.png";
 import { CiSearch } from "react-icons/ci";
-import logo from "../assets/logo.png"
-
 
 const Navbar = () => {
   return (
@@ -9,12 +8,32 @@ const Navbar = () => {
       <div className="ml-10">
         <img src={logo} alt="Company Logo" className="h-12" />
       </div>
-      <ul className="flex space-x-20 items-center mr-60">
-        <li><a href="#home" className="text-white font-bold hover:text-yellow-400">Home</a></li>
-        <li><a href="#services" className="text-white font-bold hover:text-yellow-400">Services</a></li>
-        <li><a href="#training" className="text-white font-bold hover:text-yellow-400">Training</a></li>
-        <li><a href="#jobs" className="text-white font-bold hover:text-yellow-400">Jobs</a></li>
-        <li><a href="#support" className="text-white font-bold hover:text-yellow-400">Support</a></li>
+      <ul  className="flex space-x-20 items-center mr-60">
+        <li>
+          <Link to="/"  className="text-white font-bold hover:text-yellow-400">
+            HOME
+          </Link>
+        </li>
+        <li>
+          <Link to="/services"  className="text-white font-bold hover:text-yellow-400">
+            SERVICES
+          </Link>
+        </li>
+        <li>
+          <Link to="/traning"  className="text-white font-bold hover:text-yellow-400">
+            TRAINING
+          </Link>
+        </li>
+        <li>
+          <Link to="/jobs"  className="text-white font-bold hover:text-yellow-400">
+            JOBS
+          </Link>
+        </li>
+        <li>
+          <Link to="/support"  className="text-white font-bold hover:text-yellow-400">
+           SUPPORT
+          </Link>
+        </li>
         <li>
           {/* Search Icon */}
           < CiSearch className="h-6 w-6 text-white hover:text-yellow-400 cursor-pointer" />
