@@ -57,14 +57,14 @@ const Internshippage = () => {
         ].map((internship, index) => (
           <div
             key={index}
-            className="flex flex-col lg:flex-row items-center bg-white shadow-md rounded-lg p-8 w-11/12 lg:w-3/4 mb-8 border border-gray-300"
+            className="flex flex-col lg:flex-row items-center bg-white shadow-md rounded-3xl p-2 w-11/12 lg:w-4/5 mb-8 border border-black"
           >
             {/* Left Image */}
             <div className="lg:w-1/2 w-full mb-6 lg:mb-0">
               <img
                 src={internship.img}
                 alt="Internship"
-                className="rounded-lg object-cover w-full h-full"
+                className="rounded-lg object-cover w-[80%] h-[60%]"
               />
             </div>
 
@@ -80,7 +80,7 @@ const Internshippage = () => {
 
               {/* Review and Stars */}
               <div className="flex items-center mb-6">
-                <p className="text-lg font-semibold mr-4">Review</p>
+                <p className="text-lg font-bold mr-4">Review</p>
                 <div className="flex text-yellow-500">
                   <FaStar />
                   <FaStar />
@@ -88,12 +88,12 @@ const Internshippage = () => {
                   <FaStar />
                   <FaStar />
                 </div>
-              </div>
-
-              {/* Button */}
-              <button className="text-white font-bold py-3 px-6 rounded-lg bg-black transition">
-                Apply Now
+                {/* Button */}
+              <button className="text-white font-bold py-3 ml-40 px-6 rounded-full bg-black transition">
+               view More
               </button>
+              </div>
+ 
             </div>
           </div>
         ))}
