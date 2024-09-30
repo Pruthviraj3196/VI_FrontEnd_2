@@ -5,17 +5,17 @@ const Testimonials = () => {
   return (
     <div className="w-11/12 max-w-6xl mx-auto py-10">
       {/* Central Heading and Quote */}
-      <h2 className="text-3xl font-bold text-center mb-5">TESTIMONIALS</h2>
-      <p className="text-lg text-center mb-10">
+      <h2 className="text-2xl md:text-3xl font-bold text-center mb-5">TESTIMONIALS</h2>
+      <p className="text-base md:text-lg text-center mb-10">
         Don't just take our word for it, see what actual users of our service
         have to say about their experience.
       </p>
 
       {/* Cards Section */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {/* First Testimonial Card */}
         <div className="p-6 bg-white shadow-lg rounded-lg text-center">
-          <p className="text-sm mb-5">
+          <p className="text-sm md:text-base mb-5">
             My UI/UX design internship at GenexCorp was highly enriching. I
             worked on the projects, honed my design skills, and learned from
             experienced professionals in the team where I worked. This
@@ -39,7 +39,7 @@ const Testimonials = () => {
 
         {/* Second Testimonial Card */}
         <div className="p-6 bg-white shadow-lg rounded-lg text-center">
-          <p className="text-sm mb-5">
+          <p className="text-sm md:text-base mb-5">
             I had the opportunity to work with the software development team at
             GenexCorp, where I learned a lot about the industry. Their support
             and the exposure to real-world projects were immensely valuable for
@@ -60,7 +60,7 @@ const Testimonials = () => {
 
         {/* Third Testimonial Card */}
         <div className="p-6 bg-white shadow-lg rounded-lg text-center">
-          <p className="text-sm mb-5">
+          <p className="text-sm md:text-base mb-5">
             GenexCorp provided an excellent environment to apply my technical
             skills and develop them further. The mentorship and collaboration
             with senior developers boosted my confidence and helped me land my
