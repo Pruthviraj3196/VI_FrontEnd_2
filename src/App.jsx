@@ -6,6 +6,7 @@ import Jobs from './pages/Jobs';
 import Services from './pages/Services';
 import Support from './pages/Support';
 import Training from './pages/Training';
+import Applyinternship from './components/Training/Applyinternship';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path='/traning' element={<Training />} />
         <Route path="/jobs" element={<Jobs />} />
         <Route path="/support" element={<Support />} />
+        <Route path="/applyinternship" element={<Applyinternship />} />
       </Routes>
     </Router>
   );

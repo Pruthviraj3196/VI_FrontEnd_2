@@ -1,0 +1,121 @@
+.top {
+    border: 1px solid black;
+    margin: 100px 30px;
+    border-radius: 5px;
+    /* width: 85%; */
+    height: 90%;
+}
+
+.heading {
+    margin: 22px 50px;
+}
+
+.heading h1 {
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+.heading p {
+    padding-top: 19px;
+    padding-left: 10px;
+}
+
+.horizontal-line {
+    width: 90%;
+    height: 2px;
+    margin: 0 auto;
+    background-color: black;
+    /* border: 1px solid black; */
+}
+
+hr {
+    width: 90%;
+    height: 8px;
+    margin: -10px auto;
+    color: grey;
+}
+
+.user-detail {
+    margin-left: 59px;
+    /*30px */
+    margin-top: 33px;
+}
+
+.user-detail label {
+    font-size: 1rem;
+    font-weight: bolder;
+    font-style: normal;
+
+}
+
+label span {
+    color: red;
+    /* font-size: 1rem;
+    font-weight: bolder; */
+}
+
+.user-detail input {
+    margin-top: 8px;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 300px;
+    height: 34px;
+    padding-left: 5px;
+}
+
+.resume-section {
+    margin-left: 59px;
+    /*30px */
+    margin-top: 20px;
+}
+
+.resume-section label {
+    font-size: 1rem;
+    font-weight: bolder;
+    font-style: normal;
+}
+
+.resume-section p {
+    padding-top: 10px;
+}
+
+.resume-section textarea {
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 450px;
+    height: 85px;
+    padding-left: 5px;
+    margin-bottom: 20px;
+}
+
+.resume-section .Assessment-box {
+    width: 450px;
+    height: 68px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.resume-section .available {
+    font-weight: normal;
+    padding-left: 8px;
+
+}
+
+.resume-section .confirm-avail {
+    padding-bottom: 5px;
+}
+
+.btn {
+    display: flex;
+    justify-content: end;
+    margin-right: 50px;
+    color: blue;
+    font-size: larger;
+
+
+}
+
+.btn h1 {
+    padding: 19px;
+
+}
